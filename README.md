@@ -5,15 +5,14 @@ In this document, I will provide short handy notes for go language essentials. T
 This will be a collection of brief notes, just enough to get you started to using Go. Please do not treat this as complete book.
 
 ## Pre-requisites
------------------
 1. A Computer :)
 1. Go compiler. Head to http://golang.org and download go for your OS. Steps are mentioned in the website.
 1. Any Text Editor of your choice.
 1. Prior experience with programming language like C, C++, Java, C#, Python. As the following notes will mention lots of analogy between the languages.
 
-## 1 Basics
-------------
+## Basics
 Exercise File: 1.go
+
 1. Similar Commenting Styles from C, C++, Java
 1. Semi-colon are not mandatory.
 1. Has concept of packages like java and you have to import necessary packages to run the program
@@ -24,3 +23,16 @@ Exercise File: 1.go
 1. Strings are automatically UTF. You do not need special packages to support multi-lingual system.
 1. `go fmt` command formats the source code as per its own standards thus solving the problem of a multi-developer development system where each developer follows their own formatting styles.
 
+## Variable Declaration
+
+Exercise File: 2.1.go, 2.2.go, 2.3.go, 2.4.go
+
+1. Variable declaration is a mix of javascript var and C/Java type declaration - `var x int` 
+1. Go has many integer definitions - `int8`, `int16`, `int32`, `int64`, `int`. The `int` type defaults to 32 bit or 64 bit based on platform. So, be careful if you have specific use case. Oherwise, you may go out of space or may get errors supporting your desired values.
+1. Go also supports unsigned integer definitions like - `uint8`, `uint16`, `uint32`, `uint64` and `uint`. Automatic size definition goes for `uint` as well.
+1. Floats are either `float32` or `float64`. No automatic definition for floats.
+1. Default value for number type variables are 0 or 0
+1. If your program consists of any unused variable, the program will not even compile. So, get rid of memory issues in the compile time itself. Imagine, you have declared an array of `int64` of size 86400 * 64 and left it unused, essentially you are wasting almost 42 MB of main memory. Go, gets rid of that during compile time itself.
+1. Go, even raises compiler error for unused but assigned variables
+1. Like unused variables, go raises compilation error for unused imports too
+1. However, go does not raise error for a blank function.
