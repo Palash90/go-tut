@@ -72,4 +72,10 @@ func main() {
 	fmt.Printf("f64=%v, type=%T\n", f64, f64)
 	fmt.Println("\n")
 
+	var by byte // Alias for uint8
+
+	by = 2
+
+	fmt.Printf("by=%v, type=%T\n", by, by)
+	fmt.Println()
 }
