@@ -1,6 +1,6 @@
 # go beginners' essentials handy notes
 
-I will provide short handy notes for go language essentials. This is meant for Go Beginners but experienced programmers. So, any one coming from C, Java, Dotnet, python, javascript background, can quickly catch up. I will also mention the name of the exercise files present in the same repository for easy reference.
+I will provide short handy notes for go language essentials. This is meant for Go Beginners but experienced programmers. So, any one coming from C, Java, c#, Python, Javascript background, can quickly catch up. I will also mention the name of the exercise files present in the same repository for easy reference.
 
 This will be a collection of brief notes, just enough to get you started using Go. Taking your skills beyond the basics is completely on yourself. Please do not treat this as complete language reference.
 
@@ -8,7 +8,7 @@ This will be a collection of brief notes, just enough to get you started using G
 1. A Computer :)
 1. Go compiler. Head to http://golang.org and download go for your OS. Steps are mentioned in the website.
 1. Any Text Editor of your choice.
-1. Prior experience with programming language like C, C++, Java, C#, Python. As the following notes will mention lots of analogy between the languages.
+1. Prior experience with programming language like C, C++, Java, C#, Python. As the following notes will draw lots of analogy between the languages.
 
 ## Basics
 Exercise File: 1.go
