@@ -40,11 +40,15 @@ Exercise Files: 2.1.go, 2.2.go, 2.3.go, 2.4.go
 
 ## Strong type check system
 
-Exercise Files: 3.1.go, 3.2.go, 3.3.go, 3.4.go
+Exercise Files: 3.1.go, 3.2.go, 3.3.go, 3.4.go, 3.5.go
 
 1. Go has a very strong type check system in place
 1. Go does not allow you to assign integer variables to float variables
+1. Operation between an integer and a float is not allowed
+1. Operation between an integer and an unsigned integer is not allowed
+1. Operation between float32 and float64 is also not allowed
 1. Division between two integers results an integer
 1. To get the float result, declare all associated variables as floats
 1. Like python you can leave the type inference on compiler. You can use `:=` operator for that
 1. You can assign multiple variables on a single line using `,`
+
