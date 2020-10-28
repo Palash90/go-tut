@@ -22,4 +22,5 @@ Exercise File: 1.go
 1. `go run` runs the file
 1. `go build` creates an executable based on the platform you are running
 1. Strings are automatically UTF. You do not need special packages to support multi-lingual system.
+1. `go fmt` command formats the source code as per its own standards thus solving the problem of a multi-developer development system where each developer follows their own formatting styles.
 

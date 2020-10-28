@@ -15,7 +15,7 @@ import (
 // The main function definition is important, otherwise, it won't run. Try renaming the func 'mains'
 func main() {
 
-	fmt.Println("Hello") // Semi-colon is unnecessary but can work with one.
+	fmt.Println("Hello") // Semi-colon is unnecessary but can work with one. Go fmt removed the Semi-colon.
 	fmt.Println("Printed without Semi colon")
 	fmt.Println("UTF Out of Box - 😊")
 }
