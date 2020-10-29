@@ -40,6 +40,7 @@ Exercise Files: 2.1.go, 2.2.go, 2.3.go, 2.4.go
 1. Go, even raises compiler error for unused but assigned variables
 1. Like unused variables, go raises compilation error for unused imports too
 1. However, go does not raise error for a blank function.
+1. You can get around the compilation error of unused variable by throwing away the value. You can name thhe variable as `_` to throw away its value
 
 ## Strong type check system
 
