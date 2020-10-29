@@ -15,5 +15,7 @@ func main() {
 	x = 1
 	y = 1
 
-	fmt.Println("x=%v type of x=%T", x, x)
+	// Use _ to discard values returned by function
+	len, _ := fmt.Println("x=%v type of x=%T", x, x)
+	fmt.Println("Printed length", len)
 }
