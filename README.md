@@ -22,6 +22,9 @@ Exercise File: 1.go
 1. `go build` creates an executable based on the platform you are running
 1. Strings are automatically UTF. You do not need special packages to support multi-lingual system.
 1. `go fmt` command formats the source code as per its own standards thus solving the problem of a multi-developer development system where each developer follows their own formatting styles.
+1. Go built application has an associated application run time. No Virtual Machine is required to run the application.
+1. Go has some of the Object Oriented Features - Interfaces, Custom Types, Structs, Methods
+1. Go does not have these Object Oriented Features - Inheritance, Polymorphism, Method or Operator overloading, implicit numeric conversion, Exception Handling
 
 ## Variable Declaration
 
@@ -52,3 +55,19 @@ Exercise Files: 3.1.go, 3.2.go, 3.3.go, 3.4.go, 3.5.go
 1. Like python you can leave the type inference on compiler. You can use `:=` operator for that
 1. You can assign multiple variables on a single line using `,`
 
+## Branching
+
+Exercise Files: 4.1.go (Requires an integer console argument), 4.2.go
+Usage: go run 4.1.go 7
+       go run 4.2.go 1
+
+1. Supports if else ladder, however like python you do not need parenthesis to be wrapped around the condition
+1. Conditional statements can have `&&`and `||`
+1. If conditions can also have an optional assignment statement 
+1. Also supports switch and like Java, C# it also supports string variables in the condition
+1. You do not need `break` statement in `switch`
+1. Multiple cases can be comma separated
+1. `default` is optional
+1. `switch` can work without a condition, which is an alternative to if/else
+1. `switch` also can have optional assignment
+1. The starting parenthesis must be placed on the same line as of the if/switch statement
