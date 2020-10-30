@@ -65,8 +65,8 @@ Usage: go run 4.1.go 7
 
 1. Supports if else ladder, however like python you do not need parenthesis to be wrapped around the condition
 1. Conditional statements can have `&&`and `||`
-1. If conditions can also have an optional assignment statement 
-1. Also supports switch and like Java, C# it also supports string variables in the condition
+1. If conditions have an optional assignment statement 
+1. Also supports switch and like Java, C# it supports string variables in the condition
 1. You do not need `break` statement in `switch`
 1. Multiple cases can be comma separated
 1. `default` is optional
