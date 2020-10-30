@@ -59,6 +59,7 @@ Exercise Files: 3.1.go, 3.2.go, 3.3.go, 3.4.go, 3.5.go
 ## Branching
 
 Exercise Files: 4.1.go (Requires an integer console argument), 4.2.go
+
 Usage: go run 4.1.go 7
        go run 4.2.go 1
 
