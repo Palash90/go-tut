@@ -73,3 +73,11 @@ Usage: go run 4.1.go 7
 1. `switch` can work without a condition, which is an alternative to if/else
 1. `switch` also can have optional assignment
 1. The starting parenthesis must be placed on the same line as of the if/switch statement
+
+## Looping
+
+Exercise File: 5.go
+
+1. go has only `for` loop
+2. `for` can be used as `while` and `while true` loop as well
+1. You can use `break` and `continue` within loop
