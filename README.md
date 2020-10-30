@@ -91,4 +91,4 @@ Exercise File: 6.go
 1. Go string slices can be taken based on array indexes, syntax is like list slices in python
 1. Like Java, C# strings in go can be concatenated
 1. As already mentioned earlier, strings are by default unicode in go
-1. Multi line strings can be created using ```  
+1. Multi line strings can be created using backticks 
