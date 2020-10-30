@@ -40,7 +40,7 @@ func main() {
 
 	// For as while true
 	i = 0
-	for  {
+	for {
 		if i == 3 {
 			break
 		}

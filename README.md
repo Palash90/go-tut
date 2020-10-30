@@ -76,7 +76,7 @@ Usage: go run 4.1.go 7
 
 ## Looping
 
-Exercise File: 5.go
+Exercise File: 5.go, fizzbuzz.go
 
 1. go has only `for` loop
 2. `for` can be used as `while` and `while true` loop as well
