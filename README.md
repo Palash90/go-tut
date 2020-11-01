@@ -50,7 +50,7 @@ This will be a collection of brief notes, just enough to get you started using G
 1. Prior experience with programming language like C, C++, Java, C#, Python. As the following notes will draw lots of analogy between the languages.
 
 ## Basics
-Exercise File: 1.go
+Exercise File: [1.go](ex/1.go)
 
 1. Similar Commenting Styles from C, C++, Java
 1. Semi-colon are not mandatory.
