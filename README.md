@@ -39,7 +39,7 @@ International License</a>.
 
 ## Introduction
 
-In this short guide, I will provide short handy notes for go language essentials. This is meant for Go Beginners but experienced programmers. So, any one coming from C, Java, C#, Python, Javascript background, can quickly catch up. I will also mention the name of the exercise files present in the same repository for easy reference.
+In this short guide, I will provide short handy notes for go language essentials. This is meant for Go Beginners but experienced programmers. So, any one coming from C, Java, C#, Python, Javascript background, can quickly catch up. I will also link the exercise files present in the same repository for easy reference.
 
 This will be a collection of brief notes, just enough to get you started using Go. Taking your skills beyond the basics is completely your choice. Please do not treat this as complete language reference.
 
@@ -84,7 +84,7 @@ Exercise Files: [2.1.go](ex/2.1.go), [2.2.go](ex/2.2.go), [2.3.go](ex/2.3.go), [
 ## Strong type check system
 
 Exercise Files: [3.1.go](ex/3.1.go), [3.2.go](ex/3.2.go), [3.3.go](ex/3.3.go), [3.4.go](ex/3.4.go), [3.5.go](ex/3.5.go)
-1
+
 1. Go has a very strong type check system in place
 1. Go does not allow you to assign integer variables to float variables
 1. Operation between an integer and a float is not allowed
@@ -97,7 +97,7 @@ Exercise Files: [3.1.go](ex/3.1.go), [3.2.go](ex/3.2.go), [3.3.go](ex/3.3.go), [
 
 ## Branching
 
-Exercise Files: 4.1.go (Requires an integer console argument), 4.2.go
+Exercise Files: [4.1.go](ex/4.1.go) (Requires an integer console argument), [4.2.go](ex/4.2.go)
 
 Usage: go run 4.1.go 7
        go run 4.2.go 1
@@ -115,7 +115,7 @@ Usage: go run 4.1.go 7
 
 ## Looping
 
-Exercise File: 5.go, fizzbuzz.go
+Exercise File: [5.go](ex/5.go), [fizzbuzz.go](ex/fizzbuzz.go)
 
 1. go has only `for` loop
 1. `for` can be used as `while` and `while true` loop as well
@@ -123,7 +123,7 @@ Exercise File: 5.go, fizzbuzz.go
 
 ## Basic Understanding of Strings
 
-Exercise File: 6.go
+Exercise File: [6.go](ex/6.go)
 
 1. String is an immutable byte (uint8) array in go
 1. In the built in package, you get some string handling operations like, we get `strlen()` in C
@@ -135,7 +135,7 @@ Exercise File: 6.go
 
 ## Basic Understanding of Slices
 
-Exercise File: 7.go
+Exercise File: [7.go](ex/7.go)
 
 1. A `slice` is a wrapper over actual array in go
 1. The declaration of `array` and `slice` are similar except you remove the length in definition of `slice` while `array` is fixed length
