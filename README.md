@@ -1,4 +1,34 @@
-In this short text, I will provide short handy notes for go language essentials. This is meant for Go Beginners but experienced programmers. So, any one coming from C, Java, C#, Python, Javascript background, can quickly catch up. I will also mention the name of the exercise files present in the same repository for easy reference.
+---  
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<a rel="license"
+href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
+alt="Creative Commons Licence" style="border-width:0"
+src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"
+/></a><br /><span xmlns:dct="http://purl.org/dc/terms/"
+href="http://purl.org/dc/dcmitype/Text" property="dct:title"
+rel="dct:type">Vi Essentials</span> by <span
+xmlns:cc="http://creativecommons.org/ns#"
+property="cc:attributionName"><a href="http://palashkantikundu.in">Palash Kanti Kundu</a></span>
+is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative
+Commons Attribution-NonCommercial-NoDerivatives 4.0
+International License</a>.
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>  
+
+---------
+
+In this short guide, I will provide short handy notes for go language essentials. This is meant for Go Beginners but experienced programmers. So, any one coming from C, Java, C#, Python, Javascript background, can quickly catch up. I will also mention the name of the exercise files present in the same repository for easy reference.
 
 This will be a collection of brief notes, just enough to get you started using Go. Taking your skills beyond the basics is completely your choice. Please do not treat this as complete language reference.
 
