@@ -1,5 +1,3 @@
-# go Beginners' Essentials Notes
-
 In this short text, I will provide short handy notes for go language essentials. This is meant for Go Beginners but experienced programmers. So, any one coming from C, Java, C#, Python, Javascript background, can quickly catch up. I will also mention the name of the exercise files present in the same repository for easy reference.
 
 This will be a collection of brief notes, just enough to get you started using Go. Taking your skills beyond the basics is completely your choice. Please do not treat this as complete language reference.
