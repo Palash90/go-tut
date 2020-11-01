@@ -45,7 +45,7 @@ This will be a collection of brief notes, just enough to get you started using G
 
 ## Pre-requisites
 1. A Computer :)
-1. Go compiler. Head to http://golang.org and download go for your OS. Steps are mentioned in the website.
+1. Go compiler. Head to [http://golang.org](http://golang.org) and download go for your OS. Steps are mentioned in the website.
 1. Any Text Editor of your choice.
 1. Prior experience with programming language like C, C++, Java, C#, Python. As the following notes will draw lots of analogy between the languages.
 
@@ -67,7 +67,7 @@ Exercise File: [1.go](ex/1.go)
 
 ## Variable Declaration
 
-Exercise Files: 2.1.go, 2.2.go, 2.3.go, 2.4.go
+Exercise Files: [2.1.go](ex/2.1.go), 2.2.go, 2.3.go, 2.4.go
 
 1. Variable declaration is a mix of javascript var and C/Java type declaration - `var x int` 
 1. Go has many integer definitions - `int8`, `int16`, `int32`, `int64`, `int`. The `int` type defaults to 32 bit or 64 bit based on platform. So, be careful if you have specific use case. Oherwise, you may go out of space or may get errors supporting your desired values.
