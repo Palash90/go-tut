@@ -92,3 +92,18 @@ Exercise File: 6.go
 1. Like Java, C# strings in go can be concatenated
 1. As already mentioned earlier, strings are by default unicode in go
 1. Multi line strings can be created using backticks 
+1. In the `fmt` package, we also get a funtion `Sprintf`. This function returns a `string` instead of displaying on console.
+
+## Basic Understanding of Slices
+
+Exercise File: 7.go
+
+1. A `slice` is a wrapper over actual array in go
+1. The declaration of `array` and `slice` are similar except you remove the length in definition of `slice` while `array` is fixed length
+1. Like `ArrayList` in Java, `slice` is graowable. For all practical purposes, I would like to think `slice` as `ArrayList` in Java or `List` in C# or `List` in python. Though the concept is not exactly the same, they work similar.
+1. `len` function can be used over slices, the indexing and taking out a slice from an array or another slice is pretty similar as of python or as discussed in the basic understanding of strings
+1. All elements of the same slice must be of same type
+1. You can use `for` loop to iterate over a slice
+1. You can use `range` keyword for iteration
+1. You can use `range` with two variables that gives both values and indexes
+

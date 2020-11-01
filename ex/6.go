@@ -34,4 +34,11 @@ func main() {
 	`
 
 	fmt.Println(an)
+
+	name := "Palash"
+
+	// Use of Sprintf and C# style variable declaration within function
+	var placeHolder = fmt.Sprintf("%v %T", name, name)
+
+	fmt.Println(placeHolder)
 }
