@@ -1,1 +1,9 @@
+title: Go Beginners' Essentials
 theme: jekyll-theme-slate
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - head.html
