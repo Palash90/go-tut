@@ -27,6 +27,7 @@ International License</a>.
 <br/>  
 
 ---------
+## Introduction
 
 In this short guide, I will provide short handy notes for go language essentials. This is meant for Go Beginners but experienced programmers. So, any one coming from C, Java, C#, Python, Javascript background, can quickly catch up. I will also mention the name of the exercise files present in the same repository for easy reference.
 
