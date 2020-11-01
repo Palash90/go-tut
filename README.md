@@ -67,7 +67,7 @@ Exercise File: [1.go](ex/1.go)
 
 ## Variable Declaration
 
-Exercise Files: [2.1.go](ex/2.1.go), [2.2.go](ex/2.2.go), [2.3.go](ex/2.3.go), (2.4.go)
+Exercise Files: [2.1.go](ex/2.1.go), [2.2.go](ex/2.2.go), [2.3.go](ex/2.3.go), [2.4.go](ex/2.4.go)
 
 1. Variable declaration is a mix of javascript var and C/Java type declaration - `var x int` 
 1. Go has many integer definitions - `int8`, `int16`, `int32`, `int64`, `int`. The `int` type defaults to 32 bit or 64 bit based on platform. So, be careful if you have specific use case. Oherwise, you may go out of space or may get errors supporting your desired values.
@@ -83,8 +83,8 @@ Exercise Files: [2.1.go](ex/2.1.go), [2.2.go](ex/2.2.go), [2.3.go](ex/2.3.go), (
 
 ## Strong type check system
 
-Exercise Files: 3.1.go, 3.2.go, 3.3.go, 3.4.go, 3.5.go
-
+Exercise Files: [3.1.go](ex/3.1.go), [3.2.go](ex/3.2.go), [3.3.go](ex/3.3.go), [3.4.go](ex/3.4.go), [3.5.go](ex/3.5.go)
+1
 1. Go has a very strong type check system in place
 1. Go does not allow you to assign integer variables to float variables
 1. Operation between an integer and a float is not allowed
