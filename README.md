@@ -146,3 +146,19 @@ Exercise File: [7.go](ex/7.go)
 1. You can use `range` keyword for iteration
 1. You can use `range` with two variables that gives both values and indexes
 
+## Map
+
+Exercise File: [8.go](ex/8.go)
+
+1. `map` in go is same as `Map<T, T>` in java or `Dictionary<T, T>` in dotnet or `dict` in python
+1. You declare a `map` using `map` keyword
+1. While initializing map, you need the trailing comma and that's a must
+1. You can get value of a key similar like python or C#
+1. One catch of go `map`, if you want to query for a key that does not exist in the map, it returns the default value for the type of the value.
+1. To check if the key exists in a map, you need double context return
+1. `len` function returns the number of keys present in map
+1. Upserting a value in `map` is similar of python 
+1. To delete a value from `map` use builtin `delete` function
+1. Iteration of map can be done using `for` loop with `range` either in single or in double context form
+
+
