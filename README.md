@@ -49,6 +49,17 @@ This will be a collection of brief notes, just enough to get you started using G
 1. Any Text Editor of your choice.
 1. Prior experience with programming language like C, C++, Java, C#, Python. As the following notes will draw lots of analogy between the languages.
 
+
+## Introduction to Go
+Go is a modern language which solves problems of some of the current programming languages. Companies like Google, Amazon are trying to leverage its out of box concurrency handling. Projects like Docker and Kubernetes are being written in Go.
+
+In my opinion `Go` is -
+1. C/C++ without the noisy pointer arithmatic
+1. Java/C# without `try`, `catch`
+1. Java/C# without overloading
+1. Java/C# without inheritance
+1. C/C++ with built-in concurrency handling
+
 ## Basics
 Exercise File: [1.go](ex/1.go)
 
