@@ -60,6 +60,7 @@ In my opinion `Go` is -
 1. Java/C# without inheritance
 1. C/C++ with built-in concurrency handling
 1. C/C++ with garbage collection
+1. Java/C# without the need of a Virtual Machine
 
 Some unique features of `Go` are -
 1. Unused variable/package detection during compile time itself, resulting in optimal executable file genration and optimal memory usage
