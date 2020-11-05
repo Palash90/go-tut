@@ -66,6 +66,7 @@ Some unique features of `Go` are -
 1. Unused variable/package detection during compile time itself, resulting in optimal executable file genration and optimal memory usage
 1. Extreme level of type checking during compilation, eliminating the need of bugs caused by typecasting during runtime.
 1. You do not need `public` or `private` keyword still make your variables or methods public or private
+1. A built-in formatting tool to avoid the Formatting Problems in a multi developer system.
 
 ## Basics
 Exercise File: [1.go](ex/1.go)
