@@ -209,3 +209,15 @@ Exercise Files: [10.1.go](ex/10.1.go), [10.2.go](ex/10.2.go)
 
 1. Like Java, primitive types are passed by value, even primitive arrays and strings. Remember `string` is an array of `uint`
 1. All other values are passed by reference including slices
+
+
+## Destructors
+
+Exercise File: [11.go](ex/11.go)
+
+1. The `__del__()` in python or `finalize()` in Java can be compared to `defer` keywords in go
+1. Go autoamatically cleans up the memory using garbage collector but for other resources like file, network, you can use the `defer`
+1. `defer` statements are executed in reverse
+1. `defer` statements will run regardless of if the code ran successfully or threw error
+
+
