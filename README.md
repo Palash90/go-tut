@@ -162,3 +162,28 @@ Exercise File: [8.go](ex/8.go)
 1. Iteration of map can be done using `for` loop with `range` either in single or in double context form
 
 
+## Functions
+
+Exercise File: [9.go](ex/9.go)
+
+1. You define functions in go similar to C functions or Java functions, only the return type or variable types are declared post the variable or function definition.
+
+e.g. `func add(a int, b int) int` this code defines an `add` function with two integer parameters and integer return type
+
+1. In go, you can return more than one variable, you use parenthesis to group the return type
+
+e.g. `func divide(dividend int, divisor int) (int, int, error)` declares divide function which can return three output. `error` is a special type in go. I would like to think as `Exception` in Java.
+1. You can return multiple values simply as comma separated
+
+e.g. `return dividend / divisor, dividend % divisor, nil`. `nil` is Go is comparable with `null` in Java/C#
+
+1. Error returning is heavily utilised in go and we already used error earlier in this series to check the presence of error in the return. Well, this is something like, checking `HTTP Status Code` before dealing with the response.
+
+1. Calling a function is exactly the same as calling a function in C/Javascript
+
+1. If a function returns more than one value, we have to use those many variables to assign the returns.
+
+e.g. `quotient, remainder, error := divide(5,0)`. You can also discard values that you won't use by simply using `_` to get rid of unused variable error (`quotient, _, _ = divide(10,3)` will discard the remainder and the error)
+
+
+
