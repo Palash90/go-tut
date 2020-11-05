@@ -11,11 +11,11 @@ func main() {
 	fmt.Println(divide(10, 3))
 
 	// Assigning three values
-	quotient, remainder, error := divide(5,0)
+	quotient, remainder, error := divide(5, 0)
 	fmt.Println("5 divided by 0 results in quotient=", quotient, "remainder=", remainder, "error=", error)
-	
+
 	// Discarding values returned by functions
-	quotient, _, _ = divide(10,3)
+	quotient, _, _ = divide(10, 3)
 	fmt.Println("10 divided by 3 results in quotient=", quotient)
 }
 
