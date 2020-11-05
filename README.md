@@ -59,6 +59,12 @@ In my opinion `Go` is -
 1. Java/C# without overloading
 1. Java/C# without inheritance
 1. C/C++ with built-in concurrency handling
+1. C/C++ with garbage collection
+
+Some unique features of `Go` are -
+1. Unused variable/package detection during compile time itself, resulting in optimal executable file genration and optimal memory usage
+1. Extreme level of type checking during compilation, eliminating the need of bugs caused by typecasting during runtime.
+1. You do not need `public` or `private` keyword still make your variables or methods public or private
 
 ## Basics
 Exercise File: [1.go](ex/1.go)
@@ -197,4 +203,9 @@ e.g. `return dividend / divisor, dividend % divisor, nil`. `nil` is Go is compar
 e.g. `quotient, remainder, error := divide(5,0)`. You can also discard values that you won't use by simply using `_` to get rid of unused variable error (`quotient, _, _ = divide(10,3)` will discard the remainder and the error)
 
 
+## Pointers
 
+Exercise Files: [10.1.go](ex/10.1.go), [10.2.go](ex/10.2.go)
+
+1. Like Java, primitive types are passed by value, even primitive arrays and strings. Remember `string` is an array of `uint`
+1. All other values are passed by reference including slices
