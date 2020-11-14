@@ -223,3 +223,16 @@ Exercise File: [11.go](ex/11.go)
 1. `defer` statements will run regardless of if the code ran successfully or threw error
 
 
+## Structs
+
+Exercise File: [12.go](ex/12.go)
+
+1. Like C, you can define your own `struct`, this works similar as a class in Java or C#. The definition can be done using `type` and ` struct` keywords.
+1. You need to create the instance of the `struct` to be used in your code
+1. You can create an instance of `struct` simply like C# but without the `new` keyword
+1. If you leave any attribute empty while creating the struct, they will get default value according to the type
+1. The assigning of values in `struct` is similar like assigning values in `map`
+1. While prining the value, it only prints the values stored in the attrbutes
+1. To see the `struct` like `json` you can use the `+v` in `printf`
+
+
