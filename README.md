@@ -234,5 +234,13 @@ Exercise File: [12.go](ex/12.go)
 1. The assigning of values in `struct` is similar like assigning values in `map`
 1. While prining the value, it only prints the values stored in the attrbutes
 1. To see the `struct` like `json` you can use the `+v` in `printf`
+1. `struct` can have one or more method associated with it
+1. Defining method on `struct` is similar to that of defining function except you have to mention on which struct the method works upon
+1. Like functions, methods too can be either pass by value or pass by reference. Pass by reference is more common
+1. To define a method that is pass by value, we use the syntax - `func (p Product) Value() float64` where `p` is the name of the variable `Product` is the defined `struct` and `Value` is the name of the method. Opening and closing braces define it has a method. This kind of methods do not change the value of the `struct` attributes.
+1. To define a method that is pass by reference, we use the syntax - `func (p *Product) SellProduct()`. Notice the asterix before the `struct` type. This type of method can change the value of the `struct` attributes. The asteric defines that the method works on the pointer of the `struct`
+1. Invoking method on `struct` is similar to that of invoking methods on Java or C#.
+
+
 
 

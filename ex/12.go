@@ -18,6 +18,23 @@ type Product struct {
 	shelf int
 }
 
+// This is a method of struct Product, this will not change the existing value of the struct
+// The values of the struct will be copied in this method
+func (p Product) Value() float64 {
+
+	if p.Sell {
+		return -(float64(p.Quantity) * p.Price)
+	} else {
+		return float64(p.Quantity) * p.Price
+	}
+}
+
+// This method is a pointer based method and can change the value of the passed pointer
+// The method name and attribute name cannot be the same. Had to rename to SellProduct
+func (p *Product) SellProduct() {
+	p.Sell = true
+}
+
 func main() {
 
 	// Empty definition of struct, all values will be assigned default value for the corresponding type
@@ -32,7 +49,7 @@ func main() {
 	p1.Name = "Diya"
 	p1.Quantity = 100
 	p1.Price = 2
-	p1.Sell = true
+	p1.Sell = false
 	p1.shelf = 4
 
 	fmt.Printf("%+v\n", p1)
@@ -53,9 +70,11 @@ func main() {
 	p3 := Product{
 		Name:     "Oil",
 		Quantity: 50,
-		Sell:     true,
 	}
 
 	fmt.Printf("%+v\n", p3)
 
+	fmt.Println("Total Inventory Value before sell", p3.Value()+p2.Value()+p1.Value())
+	p1.SellProduct()
+	fmt.Println("Total Inventory Value after sell", p3.Value()+p2.Value()+p1.Value())
 }
