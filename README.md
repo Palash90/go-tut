@@ -240,7 +240,7 @@ Exercise File: [12.go](ex/12.go)
 1. To define a method that is pass by value, we use the syntax - `func (p Product) Value() float64` where `p` is the name of the variable `Product` is the defined `struct` and `Value` is the name of the method. Opening and closing braces define it has a method. This kind of methods do not change the value of the `struct` attributes.
 1. To define a method that is pass by reference, we use the syntax - `func (p *Product) SellProduct()`. Notice the asterix before the `struct` type. This type of method can change the value of the `struct` attributes. The asteric defines that the method works on the pointer of the `struct`
 1. Invoking method on `struct` is similar to that of invoking methods on Java or C#.
-
+1. You can write a constructor function in go and it behaves like a constructor in Java or C#
 
 
 

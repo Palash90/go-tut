@@ -2,7 +2,10 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+)
 
 type Product struct {
 	// Any variable name with Init Cap can be accessed publicly
@@ -33,6 +36,31 @@ func (p Product) Value() float64 {
 // The method name and attribute name cannot be the same. Had to rename to SellProduct
 func (p *Product) SellProduct() {
 	p.Sell = true
+}
+
+// This function creates a Product instance and returns. This is similar to constructor in Java/C#
+
+func NewProduct(name string, quantity int, price float64, sell bool) (*Product, error) {
+	if name == "" {
+		return nil, fmt.Errorf("Product name cannot be empty")
+	}
+
+	if quantity < 0 {
+		return nil, fmt.Errorf("Quantity should be more than 0, was provided %v", quantity)
+	}
+
+	if price < 0 {
+		return nil, fmt.Errorf("Price of a product cannot be negative")
+	}
+	p := &Product{
+		Name:     name,
+		Quantity: quantity,
+		Price:    price,
+		Sell:     sell,
+		shelf:    rand.Intn(5),
+	}
+
+	return p, nil
 }
 
 func main() {
@@ -77,4 +105,15 @@ func main() {
 	fmt.Println("Total Inventory Value before sell", p3.Value()+p2.Value()+p1.Value())
 	p1.SellProduct()
 	fmt.Println("Total Inventory Value after sell", p3.Value()+p2.Value()+p1.Value())
+
+	// Creating Product instance with constructor function
+	p4, err := NewProduct("Dry Fruits", 50, 400, false)
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Printf("Product from constructor function %+v\n", p4)
+
+	fmt.Println("Total Inventory Value before sell", p3.Value()+p2.Value()+p1.Value()+p4.Value())
+	p4.SellProduct()
+	fmt.Println("Total Inventory Value after sell", p3.Value()+p2.Value()+p1.Value()+p4.Value())
 }
