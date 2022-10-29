@@ -227,7 +227,7 @@ Exercise File: [11.go](ex/11.go)
 
 Exercise File: [12.go](ex/12.go)
 
-1. Like C, you can define your own `struct`, this works similar as a class in Java or C#. The definition can be done using `type` and ` struct` keywords.
+1. Like C, you can define your own `struct`, this works similar as a class in Java or C#. The definition can be done using `type` and `struct` keywords.
 1. You need to create the instance of the `struct` to be used in your code
 1. You can create an instance of `struct` simply like C# but without the `new` keyword
 1. If you leave any attribute empty while creating the struct, they will get default value according to the type
